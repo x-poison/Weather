@@ -1,0 +1,87 @@
+.container{
+    max-width: 500px;
+    height: 800px;
+    margin: auto;
+    margin-top: 75px;
+    border-radius: 12px;
+    background-image: linear-gradient(to left, red, blue);
+}
+
+.t-bar{
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    padding-top: 50px;
+}
+
+.t-bar input{
+    display: flex;
+    width: 362px;
+    height: 40px;
+    background: #ffff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.weather{
+    margin-top: 29px;
+    display: flex;
+    justify-content: center;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: #ffff;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.weather_2{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 100px;
+    font-weight: 200;
+}
+
+.location{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 60px;
+}
+
+.data-wrapper{
+    margin-top: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.element{
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.data{
+    font-size: 34px;
+    font-weight: 400;
+}
+.text{
+    font-size: 20px;
+    font-weight: 400;
+}
+ .icon{
+    margin-top: 10px;
+    
+ }
